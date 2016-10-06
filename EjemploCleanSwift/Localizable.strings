@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  EjemploCleanSwift
+
+  Created by Jonatan Londoño Taborda on 10/6/16.
+  Copyright © 2016 Jonatan Londoño Taborda. All rights reserved.
+*/
+
+// Titulo_
+"Titulo_Error" = "Error";
+"Titulo_Informacion" = "Información";
+"Titulo_Advertencia" = "Advertencia";

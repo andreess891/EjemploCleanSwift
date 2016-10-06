@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EjemploCleanSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qX2-1d-CSp">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yra-PV-2UJ">
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="buttonLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EhP-9B-gJr"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uc0-MP-KkW">
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Uc0-MP-KkW" secondAttribute="trailing" constant="123" id="2dI-3I-QGs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yra-PV-2UJ" secondAttribute="trailing" constant="149" id="2yA-Gl-6kU"/>
+                            <constraint firstItem="yra-PV-2UJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="148" id="6BO-EO-g1Y"/>
+                            <constraint firstItem="Uc0-MP-KkW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="123" id="7j1-rd-1AD"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="qX2-1d-CSp" secondAttribute="trailing" constant="123" id="H5w-r9-LtH"/>
+                            <constraint firstItem="qX2-1d-CSp" firstAttribute="top" secondItem="Uc0-MP-KkW" secondAttribute="bottom" constant="8" id="Ph5-5j-jvC"/>
+                            <constraint firstItem="qX2-1d-CSp" firstAttribute="top" secondItem="Uc0-MP-KkW" secondAttribute="bottom" constant="8" id="QCu-Kc-3AH"/>
+                            <constraint firstItem="Uc0-MP-KkW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="222" id="VpS-uT-iz7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yra-PV-2UJ" secondAttribute="bottom" constant="319" id="fxH-EH-c1G"/>
+                            <constraint firstItem="yra-PV-2UJ" firstAttribute="top" secondItem="qX2-1d-CSp" secondAttribute="bottom" constant="8" id="it8-ta-Hu6"/>
+                            <constraint firstItem="yra-PV-2UJ" firstAttribute="top" secondItem="qX2-1d-CSp" secondAttribute="bottom" constant="8" id="sqo-9r-K9z"/>
+                            <constraint firstItem="qX2-1d-CSp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="123" id="yZd-Yt-oN5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textFieldPassword" destination="qX2-1d-CSp" id="xSy-8S-hpc"/>
+                        <outlet property="textfieldUserName" destination="Uc0-MP-KkW" id="KpX-m5-Fo2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
