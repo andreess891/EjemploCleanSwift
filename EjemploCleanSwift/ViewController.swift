@@ -9,7 +9,7 @@
 import UIKit
 
 protocol ViewControllerOutput{
-    func login(user : Usuario) -> Void
+     func loginUser(user: Usuario?)
 }
 
 protocol ViewControllerInput {
@@ -31,6 +31,11 @@ class ViewController: UIViewController, ViewControllerInput {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+         LoginConfigurator.sharedInstance.configure(viewController: self)
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -42,7 +47,7 @@ class ViewController: UIViewController, ViewControllerInput {
         
         let usuario = Usuario.init(usuario: self.textfieldUserName.text, contrasenia: textFieldPassword.text, filial: "")
         
-        self.output?.login(user: usuario)
+        self.output?.loginUser(user: usuario)
     }
     
     // MARK: Internal Methods
@@ -51,7 +56,7 @@ class ViewController: UIViewController, ViewControllerInput {
     }
     
     internal func showMessage(message: String) {
-        
+        print(message)
     }
 }
 

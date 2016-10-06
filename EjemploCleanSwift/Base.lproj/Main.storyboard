@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,7 +15,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qX2-1d-CSp">
@@ -38,18 +37,15 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="Uc0-MP-KkW" secondAttribute="trailing" constant="123" id="2dI-3I-QGs"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="yra-PV-2UJ" secondAttribute="trailing" constant="149" id="2yA-Gl-6kU"/>
-                            <constraint firstItem="yra-PV-2UJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="148" id="6BO-EO-g1Y"/>
-                            <constraint firstItem="Uc0-MP-KkW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="123" id="7j1-rd-1AD"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="qX2-1d-CSp" secondAttribute="trailing" constant="123" id="H5w-r9-LtH"/>
-                            <constraint firstItem="qX2-1d-CSp" firstAttribute="top" secondItem="Uc0-MP-KkW" secondAttribute="bottom" constant="8" id="Ph5-5j-jvC"/>
-                            <constraint firstItem="qX2-1d-CSp" firstAttribute="top" secondItem="Uc0-MP-KkW" secondAttribute="bottom" constant="8" id="QCu-Kc-3AH"/>
-                            <constraint firstItem="Uc0-MP-KkW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="222" id="VpS-uT-iz7"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yra-PV-2UJ" secondAttribute="bottom" constant="319" id="fxH-EH-c1G"/>
-                            <constraint firstItem="yra-PV-2UJ" firstAttribute="top" secondItem="qX2-1d-CSp" secondAttribute="bottom" constant="8" id="it8-ta-Hu6"/>
-                            <constraint firstItem="yra-PV-2UJ" firstAttribute="top" secondItem="qX2-1d-CSp" secondAttribute="bottom" constant="8" id="sqo-9r-K9z"/>
-                            <constraint firstItem="qX2-1d-CSp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="123" id="yZd-Yt-oN5"/>
+                            <constraint firstItem="yra-PV-2UJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0am-tg-BLX"/>
+                            <constraint firstItem="qX2-1d-CSp" firstAttribute="top" secondItem="Uc0-MP-KkW" secondAttribute="bottom" constant="14" id="91Z-xZ-2hC"/>
+                            <constraint firstItem="yra-PV-2UJ" firstAttribute="top" secondItem="qX2-1d-CSp" secondAttribute="bottom" constant="8" id="B3k-B2-aDx"/>
+                            <constraint firstItem="yra-PV-2UJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="RGj-ZI-Ysf"/>
+                            <constraint firstAttribute="trailing" secondItem="Uc0-MP-KkW" secondAttribute="trailing" constant="9" id="h0j-T1-gzq"/>
+                            <constraint firstItem="qX2-1d-CSp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="9" id="kIq-tC-Tbu"/>
+                            <constraint firstAttribute="trailing" secondItem="qX2-1d-CSp" secondAttribute="trailing" constant="9" id="r0S-vU-P8f"/>
+                            <constraint firstItem="Uc0-MP-KkW" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="167" id="yyp-YA-fD6"/>
+                            <constraint firstItem="Uc0-MP-KkW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="9" id="zKN-uj-UHu"/>
                         </constraints>
                     </view>
                     <connections>
@@ -59,6 +55,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="31.875" y="38.028169014084504"/>
         </scene>
     </scenes>
 </document>

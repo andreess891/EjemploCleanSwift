@@ -15,6 +15,7 @@ protocol SecurityBusinessLogicOutput {
 
 protocol SecurityBusinessLogicInput {
     func loginUser(user: Usuario?)
+     
 }
 
 class SecurityBusinessLogic: SecurityBusinessLogicInput {
