@@ -45,7 +45,7 @@ class ViewController: UIViewController, ViewControllerInput {
     // MARK: IBActions
     @IBAction func buttonLogin(_ sender: AnyObject) {
         
-        let usuario = Usuario.init(usuario: self.textfieldUserName.text, contrasenia: textFieldPassword.text, filial: "")
+        let usuario = Usuario.init(usuario: self.textfieldUserName.text, contrasenia: textFieldPassword.text)
         
         self.output?.loginUser(user: usuario)
     }

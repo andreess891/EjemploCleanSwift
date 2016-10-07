@@ -14,7 +14,7 @@ class Usuario {
     
     init(){}
     
-    init(usuario: String!, contrasenia: String!,filial : String!){
+    init(usuario: String!, contrasenia: String!){
         self.Usuario = usuario
         self.Contrasenia = contrasenia
     }

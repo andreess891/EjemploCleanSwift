@@ -10,13 +10,157 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EjemploCleanSwift/ViewController.swift"
-            timestampString = "497484569.690796"
+            timestampString = "497540663.495782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "buttonLogin(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EjemploCleanSwift/ViewController.swift"
+            timestampString = "497540939.946634"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "59"
             endingLineNumber = "59"
             landmarkName = "showMessage(message:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EjemploCleanSwift.ViewController.showMessage (message : Swift.String) -&gt; ()"
+                  moduleName = "EjemploCleanSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonatanlondonotaborda/Documents/JONATAN/Ejemplos%20iOS/EjemploCleanSwift/EjemploCleanSwift/ViewController.swift"
+                  timestampString = "497548782.513512"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EjemploCleanSwiftTests.ViewController.showMessage (message : Swift.String) -&gt; ()"
+                  moduleName = "EjemploCleanSwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonatanlondonotaborda/Documents/JONATAN/Ejemplos%20iOS/EjemploCleanSwift/EjemploCleanSwift/ViewController.swift"
+                  timestampString = "497548784.406324"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EjemploCleanSwift/ViewController.swift"
+            timestampString = "497545670.290426"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EjemploCleanSwift.ViewController.awakeFromNib () -&gt; ()"
+                  moduleName = "EjemploCleanSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonatanlondonotaborda/Documents/JONATAN/Ejemplos%20iOS/EjemploCleanSwift/EjemploCleanSwift/ViewController.swift"
+                  timestampString = "497548782.516113"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EjemploCleanSwiftTests.ViewController.awakeFromNib () -&gt; ()"
+                  moduleName = "EjemploCleanSwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonatanlondonotaborda/Documents/JONATAN/Ejemplos%20iOS/EjemploCleanSwift/EjemploCleanSwift/ViewController.swift"
+                  timestampString = "497548784.408338"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EjemploCleanSwift/Domain/BusinessLogic/SecurityBusinessLogic.swift"
+            timestampString = "497547498.638662"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "loginUser(user:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EjemploCleanSwift.SecurityBusinessLogic.(loginUser (user : Swift.Optional&lt;EjemploCleanSwift.Usuario&gt;) -&gt; ()).(closure #1)"
+                  moduleName = "EjemploCleanSwift"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonatanlondonotaborda/Documents/JONATAN/Ejemplos%20iOS/EjemploCleanSwift/EjemploCleanSwift/Domain/BusinessLogic/SecurityBusinessLogic.swift"
+                  timestampString = "497548782.518893"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EjemploCleanSwiftTests.SecurityBusinessLogic.(loginUser (user : Swift.Optional&lt;EjemploCleanSwiftTests.Usuario&gt;) -&gt; ()).(closure #1)"
+                  moduleName = "EjemploCleanSwiftTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jonatanlondonotaborda/Documents/JONATAN/Ejemplos%20iOS/EjemploCleanSwift/EjemploCleanSwift/Domain/BusinessLogic/SecurityBusinessLogic.swift"
+                  timestampString = "497548784.410343"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

@@ -11,10 +11,13 @@ import Foundation
 extension ViewController : SecurityPresenterOutput {
 
 }
- extension SecurityBusinessLogic : ViewControllerOutput {
+
+extension SecurityBusinessLogic : ViewControllerOutput {
+    
 }
 
-extension SecurityPresenter : SecurityBusinessLogicOutput{
+extension SecurityPresenter : SecurityBusinessLogicOutput {
+    
 }
 
 class LoginConfigurator {
