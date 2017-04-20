@@ -13,7 +13,6 @@ protocol ViewControllerOutput{
 }
 
 protocol ViewControllerInput {
-    
     func showMessage(message:String) -> Void
     func startDashBoard() -> Void
 }
@@ -52,11 +51,19 @@ class ViewController: UIViewController, ViewControllerInput {
     
     // MARK: Internal Methods
     internal func startDashBoard() {
-        
+        self.performSegue(withIdentifier: "segueDashboard", sender: nil)
     }
     
     internal func showMessage(message: String) {
-        print(message)
+        let alert = UIAlertController(title: "Alert", message: message, preferredStyle: UIAlertControllerStyle.alert)
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "segueDashboard" {
+            let vc = segue.destination
+            self.navigationController?.present(vc, animated: true, completion: nil)
+        }
     }
 }
 

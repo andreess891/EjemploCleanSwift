@@ -37,6 +37,7 @@
 		7F2F65F21DA6FCFA005ABD99 /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F65F11DA6FCFA005ABD99 /* LoginConfigurator.swift */; };
 		7F2F65F31DA6FCFA005ABD99 /* LoginConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F65F11DA6FCFA005ABD99 /* LoginConfigurator.swift */; };
 		7F2F65F41DA6FDE9005ABD99 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2F65A51DA6D491005ABD99 /* ViewController.swift */; };
+		88D5D1DA1EA79A1400A7C7E7 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D5D1D91EA79A1400A7C7E7 /* DashboardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		7F2F65DF1DA6E690005ABD99 /* SecurityRepositoryTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecurityRepositoryTest.swift; path = Repositories/Test/SecurityRepositoryTest.swift; sourceTree = "<group>"; };
 		7F2F65EE1DA6F758005ABD99 /* SecurityPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecurityPresenter.swift; path = Presenters/SecurityPresenter.swift; sourceTree = "<group>"; };
 		7F2F65F11DA6FCFA005ABD99 /* LoginConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginConfigurator.swift; path = Domain/LoginConfigurator.swift; sourceTree = "<group>"; };
+		88D5D1D91EA79A1400A7C7E7 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DashboardViewController.swift; path = ViewControllers/DashboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				7F2F65A51DA6D491005ABD99 /* ViewController.swift */,
+				88D5D1D91EA79A1400A7C7E7 /* DashboardViewController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -354,6 +357,7 @@
 				7F2F65A61DA6D491005ABD99 /* ViewController.swift in Sources */,
 				7F2F65DE1DA6E673005ABD99 /* SecurityRepository.swift in Sources */,
 				7F2F65F21DA6FCFA005ABD99 /* LoginConfigurator.swift in Sources */,
+				88D5D1DA1EA79A1400A7C7E7 /* DashboardViewController.swift in Sources */,
 				7F2F65EF1DA6F758005ABD99 /* SecurityPresenter.swift in Sources */,
 				7F2F65CF1DA6DF25005ABD99 /* Enumeradores.swift in Sources */,
 				7F2F65E01DA6E690005ABD99 /* SecurityRepositoryTest.swift in Sources */,
@@ -578,6 +582,7 @@
 				7F2F65BF1DA6D491005ABD99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F2F65C01DA6D491005ABD99 /* Build configuration list for PBXNativeTarget "EjemploCleanSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +591,7 @@
 				7F2F65C21DA6D491005ABD99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

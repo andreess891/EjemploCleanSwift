@@ -76,12 +76,31 @@ class SecurityBusinessTest: XCTestCase {
         sujetoDePrueba?.repositoryLocator = repositorioSpy
         
         //When
-        let usuario = Usuario()
+        let usuario = Usuario.init(usuario: "sadd", contrasenia: "hhjgf")
         repositorioSpy.jsonString = "{}"
+        repositorioSpy.error = nil
         sujetoDePrueba?.loginUser(user: usuario)
         
         // Then
+        XCTAssert(seguridadBusinessOutputSpy.presentoDashBoard, "Deberia llevar el usuario al dashboard")
         XCTAssert(repositorioSpy.obtuvoDatosUsuario, "autenticarUsuario() debería autenticar el usuario contra el api.")
     }
     
+    func testDeberiaPresentarMensajeAlHacerLogin() {
+        //Given
+        let seguridadBusinessOutputSpy = SeguridadBusinessOutputSpy()
+        sujetoDePrueba?.output = seguridadBusinessOutputSpy
+        let repositorioSpy = SeguridadRepositorioSpy()
+        sujetoDePrueba?.repositoryLocator = repositorioSpy
+        
+        //When
+        let usuario = Usuario.init(usuario: "sadd", contrasenia: "hhjgf")
+        repositorioSpy.jsonString = ""
+        repositorioSpy.error = nil
+        sujetoDePrueba?.loginUser(user: usuario)
+        
+        // Then
+        XCTAssert(seguridadBusinessOutputSpy.presentoMensaje, "Deberia llevar el usuario al dashboard")
+        XCTAssert(repositorioSpy.obtuvoDatosUsuario, "autenticarUsuario() debería autenticar el usuario contra el api.")
+    }
 }

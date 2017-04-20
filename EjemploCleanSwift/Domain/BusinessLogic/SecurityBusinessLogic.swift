@@ -25,6 +25,7 @@ class SecurityBusinessLogic: SecurityBusinessLogicInput {
     var repositoryLocator = RepositoryLocator().productsRepository()
     
     func loginUser(user: Usuario?) {
+        
         repositoryLocator.loginUser( user: user!) { (json, error) in
             if (json != nil && json != "" )  {
                 self.output.presentDashBoard(json: json!)

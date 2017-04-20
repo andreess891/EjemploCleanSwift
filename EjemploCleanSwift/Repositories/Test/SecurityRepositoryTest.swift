@@ -28,6 +28,6 @@ class SecurityRepositoryTest: ISecurityRepository {
     }
     
     func loginUser(user: Usuario, completionHandler: (String?, NSError?) -> Void) {
-        completionHandler("", nil);
+        completionHandler("dfghth", nil);
     }
 }
